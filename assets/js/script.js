@@ -1,13 +1,19 @@
 'use strict';
 
-// // add event listener on multiple elements
+/**
+ * add event listener on multiple elements
+ */
+
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
   }
 };
 
-// // Navbar Toggle for mobile
+/**
+ * NAVBAR TOGGLE FOR MOBILE
+ */
+
 const navbar = document.querySelector('[data-navbar]');
 const navTogglers = document.querySelectorAll('[data-nav-toggler]');
 const overlay = document.querySelector('[data-overlay]');
@@ -20,9 +26,11 @@ const toggleNavbar = function () {
 
 addEventOnElements(navTogglers, 'click', toggleNavbar);
 
-/* Header
- --active header when window scroll down to 100px
+/**
+ * HEADER
+ * active header when window scroll down to 100px
  */
+
 const header = document.querySelector('[data-header]');
 
 window.addEventListener('scroll', function () {
@@ -33,7 +41,10 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// // Scroll Reveal
+/**
+ * SCROLL REVEAL
+ */
+
 const revealElements = document.querySelectorAll('[data-reveal]');
 const revealDelayElements = document.querySelectorAll('[data-reveal-delay]');
 

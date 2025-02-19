@@ -163,6 +163,7 @@ html {
   font-family: var(--ff-manrope);
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -317,9 +318,8 @@ body.nav-active {
   left: 0;
   background-color: var(--white);
   width: 100%;
-  padding-block: 5px;
   box-shadow: var(--shadow-2);
-  z-index: 1000;
+  z-index: 4;
 }
 
 .header.active {

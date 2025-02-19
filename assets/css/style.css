@@ -74,6 +74,14 @@
   --shadow-2: 0 4px 28px hsla(0, 0%, 0%, 0.7);
 }
 
+.dark-theme .navbar {
+  color: #fff;
+}
+
+.dark-theme .nav-close-btn {
+  color: #fff;
+}
+
 /*-----------------------------------*\
  * #THEME COLORS
 \*-----------------------------------*/
@@ -304,14 +312,14 @@ body.nav-active {
   #HEADER
 \*-----------------------------------*/
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--white);
   width: 100%;
   padding-block: 5px;
   box-shadow: var(--shadow-2);
-  z-index: 4;
+  z-index: 1000;
 }
 
 .header.active {
@@ -354,6 +362,7 @@ body.nav-active {
   padding: 30px;
   padding-block-end: 40px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   gap: 30px;
   z-index: 2;

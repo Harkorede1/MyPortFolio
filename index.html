@@ -12,7 +12,22 @@
     />
     <meta
       name="description"
+      content="This is my personal portfolio website made by JoshiesTech, contact me let's work innovation together"
+    />
+
+    <meta property="og:title" content="JoshiesTech..." />
+
+    <meta
+      property="og:description"
       content="This is my personal portfolio website made by JoshiesTech"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <!-- favicon -->
@@ -29,9 +44,28 @@
     <!-- Custom Css Link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
+    <!-- Remix Icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Preload Images -->
     <link rel="preload" as="image" href="./assets/images/profile.png" />
     <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -70,13 +104,15 @@
           <ul class="navbar-list">
             <li><a href="#" class="navbar-link">Home</a></li>
 
-            <li><a href="#" class="navbar-link">About</a></li>
+            <li><a href="#" class="navbar-link">Services</a></li>
 
             <li><a href="#" class="navbar-link">Projects</a></li>
 
             <li><a href="#" class="navbar-link">Blog</a></li>
 
             <li><a href="#" class="navbar-link">Contact</a></li>
+
+            <li><a href="#" class="navbar-link">About Us</a></li>
           </ul>
 
           <div class="wrapper">
@@ -189,179 +225,88 @@
           </div>
         </section>
 
-        <!-- About -->
-        <section class="section about" aria-label="about">
-          <div class="container">
-            <div class="wrapper">
-              <div data-reveal="left">
-                <h2 class="h2 section-title">What I Do</h2>
-
-                <p class="section-text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Ipsam iusto iste dignissimos corporis hic? Et dolore aliquam
-                  quisquam assumenda, placeat ipsum temporibus eveniet iste
-                  doloribus dolor nesciunt natus mollitia odio neque quas
-                  corrupti odit molestiae soluta. Nulla est impedit excepturi
-                  corporis, blanditiis deleniti at voluptatem.
+        <!-- Services -->
+        <section>
+          <div class="service_container">
+            <div class="service_wrapper">
+              <div class="service_service">
+                <h1 class="service_offer">Services I offer</h1>
+                <p class="service_p">
+                  At Joshie'sTech, we specialize in cutting-edge web development
+                  and mobile UI/UX design, crafting seamless, engaging, and
+                  user-centered digital experiences that fuel growth
                 </p>
+                <div class="service_cards">
+                  <div class="service_card">
+                    <i class="fa-solid fa-mobile-button"></i>
+                    <h2>Mobile Design</h2>
+                    <p>
+                      We create responsive, user-friendly, and modern mobile
+                      designs that enhance user experience, optimize
+                      performance, and ensure seamless cross-device
+                      compatibility.
+                    </p>
+                  </div>
+                  <div class="service_card">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Website Design</h2>
+                    <p>
+                      We create stunning, intuitive web designs that captivate
+                      users, drive engagement, and transform your online
+                      presence into a powerful experience.
+                    </p>
+                  </div>
+                  <div class="service_card">
+                    <i class="fa-solid fa-users"></i>
+                    <h2>User Interface</h2>
+                    <p>
+                      We design sleek, intuitive user interfaces that prioritize
+                      usability, enhance user experience, and seamlessly
+                      integrate with your brand's identity.
+                    </p>
+                  </div>
+                  <div class="service_card">
+                    <i class="fa-solid fa-users"></i>
+                    <h2>User Experience</h2>
+                    <p>
+                      We design intuitive, seamless user experiences that
+                      delight users, simplify navigation, enhance engagement,
+                      and leave lasting impressions across all devices
+                    </p>
+                  </div>
+                  <div class="service_card">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Development</h2>
+                    <p>
+                      We offer expert web development services, creating
+                      responsive, scalable, and performance-driven websites
+                      tailored to meet your business and company needs
+                    </p>
+                  </div>
+
+                  <div class="service_card">
+                    <i class="fas fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>
+                      We offer professional video editing services, creating
+                      polished, engaging content that enhances storytelling,
+                      captivates audiences, and elevates your brand
+                    </p>
+                  </div>
+                </div>
               </div>
-
-              <ul class="progress-list" data-reveal="right">
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>WEB DESIGN</p>
-
-                    <span class="span">100%</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 100%; background-color: #c7b1dd"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>MOBILE DESIGN</p>
-
-                    <span class="span">80%</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 80%; background-color: #8caeec"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>WEB DEVELOPMENT</p>
-
-                    <span class="span">90%</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 90%; background-color: #b0d4c1"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>SEO</p>
-
-                    <span class="span">85%</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 85%; background-color: #e3a6b6"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
             </div>
-
-            <ul class="grid-list">
-              <li data-reveal="bottom">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-1.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web design icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">Web Design</h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati ipsam cum molestias, iure veniam vel earum.
-                    Perferendis minima dignissimos mollitia.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.25s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-2.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="mobile design icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">mobile Design</h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati ipsam cum molestias, iure veniam vel earum.
-                    Perferendis minima dignissimos mollitia.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.5s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-3.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web development icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">Development</h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati ipsam cum molestias, iure veniam vel earum.
-                    Perferendis minima dignissimos mollitia.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.75s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-4.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web SEO icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">SEO</h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati ipsam cum molestias, iure veniam vel earum.
-                    Perferendis minima dignissimos mollitia.
-                  </p>
-                </div>
-              </li>
-            </ul>
           </div>
         </section>
 
-        <!-- Porjects -->
+        <!-- slider -->
+        <section class="section slider_container">
+          <h1>
+            Web_Development_Web_Design_User_Interface_User_Experience_Video_Editing_Mobile_Design_
+          </h1>
+        </section>
+
+        <!-- Projects -->
         <section class="section project" aria-labelledby="project-label">
           <div class="container">
             <div class="title-wrapper" data-reveal="top">
@@ -390,9 +335,9 @@
                     <h3 class="h3 card-title">Insurance website</h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quae explicabo modi error? In dolores odit numquam quis
-                      enim totam modi vitae?
+                      Explore our Insurance website, designed for easy
+                      navigation, secure transactions, and a seamless user
+                      experience for policyholders.
                     </p>
 
                     <a href="#" class="btn-text" style="color: #ffa500">
@@ -429,9 +374,9 @@
                     <h3 class="h3 card-title">Bomjo Pay</h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quae explicabo modi error? In dolores odit numquam quis
-                      enim totam modi vitae?
+                      Experience Bomjo Pay, a sleek, user-friendly mobile app
+                      offering seamless payments, enhanced security, and
+                      intuitive financial management
                     </p>
 
                     <a href="#" class="btn-text" style="color: #a020f0">
@@ -468,9 +413,9 @@
                     <h3 class="h3 card-title">Web Dev.</h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Amet corporis alias aspernatur ratione reprehenderit
-                      dolorem.
+                      Explore our diverse web projects showcasing innovative
+                      designs, seamless functionality, and impactful user
+                      experiences for businesses.
                     </p>
 
                     <a href="#" class="btn-text" style="color: #7cb798">
@@ -507,9 +452,9 @@
                     <h3 class="h3 card-title">Jay's Cafe App</h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Amet corporis alias aspernatur ratione reprehenderit
-                      dolorem.
+                      Discover Jay's Cafe App, designed for seamless ordering,
+                      vibrant user experience, and intuitive navigation for
+                      coffee lovers.
                     </p>
 
                     <a href="#" class="btn-text" style="color: #3a261f">
@@ -535,6 +480,232 @@
                 </div>
               </li>
             </ul>
+          </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="Blog" class="section">
+          <div class="blog_heading">
+            <strong>Recent Blog</strong>
+            <h3>Our Blog</h3>
+          </div>
+
+          <div class="blog_box_container">
+            <!-- Blog 1 -->
+            <div class="blog_box">
+              <div class="blog_box_img">
+                <img
+                  src="./assets/images/Artificial Intelligence.webp"
+                  alt="Blog Img"
+                />
+                <a href="#" class="blog_img_link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+              <div class="blog_box_text">
+                <strong>Artificial Intelligence</strong>
+                <a href="#"
+                  >Artificial Intelligence, what it is and how it works</a
+                >
+                <div>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Impedit, dolorum enim. Commodi, aperiam. Hic eveniet
+                    architecto minus soluta ducimus mollitia.
+                  </p>
+                </div>
+
+                <div class="blog_author">
+                  <div class="blog_author_img">
+                    <img src="./assets/images/BomaImg.webp" alt="" />
+                  </div>
+                  <div class="blog_author_text">
+                    <strong>Boma</strong>
+                    <span>Feb 02, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="blog_box">
+              <div class="blog_box_img">
+                <img
+                  src="./assets/images/Artificial Intelligence.webp"
+                  alt="Blog Img"
+                />
+                <a href="#" class="blog_img_link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+              <div class="blog_box_text">
+                <strong>Artificial Intelligence</strong>
+                <a href="#"
+                  >Artificial Intelligence, what it is and how it works</a
+                >
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Impedit, dolorum enim. Commodi, aperiam. Hic eveniet
+                  architecto minus soluta ducimus mollitia.
+                </p>
+                <div class="blog_author">
+                  <div class="blog_author_img">
+                    <img src="./assets/images/BomaImg.webp" alt="" />
+                  </div>
+                  <div class="blog_author_text">
+                    <strong>Boma</strong>
+                    <span>Feb 02, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog 3 -->
+            <div class="blog_box">
+              <div class="blog_box_img">
+                <img
+                  src="./assets/images/Artificial Intelligence.webp"
+                  alt="Blog Img"
+                />
+                <a href="#" class="blog_img_link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+              <div class="blog_box_text">
+                <strong>Artificial Intelligence</strong>
+                <a href="#"
+                  >Artificial Intelligence, what it is and how it works</a
+                >
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Impedit, dolorum enim. Commodi, aperiam. Hic eveniet
+                  architecto minus soluta ducimus mollitia.
+                </p>
+                <div class="blog_author">
+                  <div class="blog_author_img">
+                    <img src="./assets/images/BomaImg.webp" alt="" />
+                  </div>
+                  <div class="blog_author_text">
+                    <strong>Boma</strong>
+                    <span>Feb 02, 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="page" class="section site">
+          <div class="testimonial__container">
+            <div class="testi">
+              <div class="head">
+                <h3>Testimonials.</h3>
+                <p>See what people are saying...</p>
+              </div>
+              <div class="body swiper">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <div class="wrapper">
+                      <div class="thumbnail">
+                        <img src="./assets/images/BomaImg.webp" alt="" />
+                      </div>
+                      <div class="aside">
+                        <p>
+                          Joshua is a skilled web developer with a keen eye for
+                          detail and strong problem-solving abilities. His
+                          design talent and collaborative approach make him a
+                          top choice for website or app development. Highly
+                          recommended!
+                        </p>
+                        <div class="name">
+                          <h4>Boma Bob</h4>
+                          <p>Software Engr</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                    <div class="wrapper">
+                      <div class="thumbnail">
+                        <img
+                          src="./assets/images/BomaImg.webp"
+                          alt="Hon Samuel"
+                        />
+                      </div>
+                      <div class="aside">
+                        <p>
+                          Joshua is a skilled web developer with a keen eye for
+                          detail and strong problem-solving abilities. His
+                          design talent and collaborative approach make him a
+                          top choice for website or app development. Highly
+                          recommended!
+                        </p>
+                        <div class="name">
+                          <h4>Hon Samuel</h4>
+                          <p>Business Analyst</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                    <div class="wrapper">
+                      <div class="thumbnail">
+                        <img
+                          src="./assets/images/BomaImg.webp"
+                          alt="Hon Samuel"
+                        />
+                      </div>
+                      <div class="aside">
+                        <p>
+                          Joshua is a skilled web developer with a keen eye for
+                          detail and strong problem-solving abilities. His
+                          design talent and collaborative approach make him a
+                          top choice for website or app development. Highly
+                          recommended!
+                        </p>
+                        <div class="name">
+                          <h4>Hon Samuel</h4>
+                          <p>Business Analyst</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                    <div class="wrapper">
+                      <div class="thumbnail">
+                        <img
+                          src="./assets/images/BomaImg.webp"
+                          alt="Hon Samuel"
+                        />
+                      </div>
+                      <div class="aside">
+                        <p>
+                          Joshua is a skilled web developer with a keen eye for
+                          detail and strong problem-solving abilities. His
+                          design talent and collaborative approach make him a
+                          top choice for website or app development. Highly
+                          recommended!
+                        </p>
+                        <div class="name">
+                          <h4>Hon Samuel</h4>
+                          <p>Business Analyst</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -610,6 +781,8 @@
           </div>
         </section>
 
+        <!-- About Us -->
+
         <!-- Footer -->
         <footer class="footer">
           <div class="container">
@@ -653,6 +826,9 @@
 
     <!-- Custom Javascript link -->
     <script src="./assets/js/dark-light-theme.js"></script>
+
+    <script src="./assets/js/revealblog.js"></script>
+
     <script src="./assets/js/script.js"></script>
 
     <!-- ionicon link -->
@@ -665,5 +841,24 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoHeight: true,
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
   </body>
 </html>

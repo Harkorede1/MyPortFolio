@@ -4,6 +4,7 @@ let btn = document.getElementById('btn');
 // let btnText = document.getElementById('btnText');
 let btnIcon = document.getElementById('btnIcon');
 let logoIcon = document.getElementById('logoIcon');
+let blogSec = document.getElementById('blogSec');
 
 btn.onclick = function () {
   document.body.classList.toggle('dark-theme');
